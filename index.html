@@ -1,27 +1,28 @@
 <!DOCTYPE html>
 <html>
-
- 
 <head>
   <title>Solar Calculator</title>
-
- <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h2>Solar Calculator</h2>
 
-  <label>System Size (kW):</label>
-  <input id="size" type="number"><br><br>
+  <!-- Centered glass container -->
+  <div class="container">
+    <h2>Solar Calculator</h2>
 
-  <label>System Cost (Rs):</label>
-  <input id="cost" type="number"><br><br>
+    <label>System Size (kW):</label>
+    <input id="size" type="number">
 
-  <label>Battery (kWh, optional):</label>
-  <input id="battery" type="number"><br><br>
+    <label>System Cost (Rs):</label>
+    <input id="cost" type="number">
 
-  <button onclick="calculate()">Calculate</button>
+    <label>Battery (kWh, optional):</label>
+    <input id="battery" type="number">
 
-  <h3 id="result"></h3>
+    <button onclick="calculate()">Calculate</button>
+
+    <h3 id="result"></h3>
+  </div>
 
   <script src="script.js"></script>
 </body>
